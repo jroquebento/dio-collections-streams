@@ -26,10 +26,13 @@ public class ExercicioProposto1 {
                 mediaSemestral = somaTemperatura / 6;
             }
         }
-        Integer index = 0;
+        System.out.println();
+        Integer index = 1;
+        System.out.printf("Média Semestral Temperaturas: %.2f\n\n", mediaSemestral);       
         for (Double temperaturaMedia : temperaturasMedias) {
             if(temperaturaMedia > mediaSemestral){
-                System.out.println(escolherMes(index)+ ".Temperatura: " + temperaturaMedia);
+                System.out.println(escolherMes(index)+ "\nTemperatura: " + temperaturaMedia);
+                System.out.println();
             }
             index++;
         }
