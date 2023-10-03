@@ -8,6 +8,10 @@ public class ExercicioProposto2 {
     public static void main(String[] args) {
         Integer quantidadeLancamentos = 100;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 085003edf6401906910036cf442329fe41d35fd8
         Random numeroAleatorio = new Random();
         List<Integer> valores = new ArrayList<>();
 
@@ -15,6 +19,10 @@ public class ExercicioProposto2 {
             valores.add(numeroAleatorio.nextInt(7));
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 085003edf6401906910036cf442329fe41d35fd8
         Map<Integer, Integer> lancamentos = new HashMap<>();
         for (Integer resultado : valores) {
             if(lancamentos.containsKey(resultado)){
@@ -29,5 +37,9 @@ public class ExercicioProposto2 {
         for(Map.Entry<Integer, Integer> entry : lancamentos.entrySet()){
             System.out.printf("%3d %10d\n", entry.getKey(), entry.getValue());
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 085003edf6401906910036cf442329fe41d35fd8
     }
 }
