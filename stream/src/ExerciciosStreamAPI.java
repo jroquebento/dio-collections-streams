@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.DoubleConsumer;
 import java.util.stream.Collectors;
 
 public class ExerciciosStreamAPI {
